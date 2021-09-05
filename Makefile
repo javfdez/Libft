@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/05 19:30:49 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/05 19:33:17 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,7 +36,7 @@ $(NAME): $(OBJ) $(SRCH)
 all: $(NAME)
 
 bonus: $(OBJ) $(OBJBONUS) $(SRCH)
-	$(AR) $(NAME) $(OBJBONUS) $(OBJ)
+	$(AR) $(NAME) $(OBJ) $(OBJBONUS)
 
 clean:
 	$(RM) $(OBJ) $(OBJBONUS)
