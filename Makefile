@@ -6,13 +6,15 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/05 22:45:18 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/06 15:11:26 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC =	ft_strlen.c		\
+SRC =	ft_isalpha.c	\
+		ft_isdigit.c	\
+		ft_strlen.c		\
+		ft_substr.c		\
 		ft_strjoin.c	\
-		ft_substr.c
 
 SRCBONUS =
 
