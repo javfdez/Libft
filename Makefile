@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/07 13:31:26 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/08 13:46:18 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,9 @@ SRC =	ft_isalpha.c	\
 		ft_bzero.c		\
 		ft_memcpy.c		\
 		ft_memmove.c	\
+		ft_strlcpy.c	\
 		ft_substr.c		\
+		ft_strlcat.c	\
 		ft_strjoin.c	\
 
 SRCBONUS =

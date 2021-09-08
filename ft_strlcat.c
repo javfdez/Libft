@@ -1,37 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/07 12:34:12 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/08 11:53:11 by javferna         ###   ########.fr       */
+/*   Created: 2021/09/08 12:09:55 by javferna          #+#    #+#             */
+/*   Updated: 2021/09/08 13:58:51 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dest, const void *src, size_t n)
+size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
-	const char	*cast_src;
-	char		*cast_dest;
-	size_t		i;
 
-	cast_src = src;
-	cast_dest = dest;
-	i = 0;
-	if (src == dest)
-		return (dest);
-	else if (src < dest)
-	{
-		while (i++ < n)
-			cast_dest[n - i] = cast_src[n - i];
-	}
-	else
-	{
-		while (n-- > 0)
-			*cast_dest++ = *cast_src++;
-	}
-	return (dest);
 }
