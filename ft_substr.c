@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/05 15:37:16 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/05 23:56:38 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/09 14:27:20 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (! substr)
 		return (NULL);
 	i = 0;
-	while (s && i < len)
+	while (s[start] && i < len)
 	{
 		substr[i] = s[start];
 		i++;

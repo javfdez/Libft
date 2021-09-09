@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/08 12:11:00 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/08 13:44:45 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/09 14:25:17 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,16 @@
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t	i;
+	size_t	j;
 	size_t	len;
 
 	len = ft_strlen(src);
 	if (!size)
 		return (len);
 	i = 0;
-	while (*src && i < (size - 1))
-		dst[i++] = *src++;
+	j = 0;
+	while (src[j] && i < (size - 1))
+		dst[i++] = src[j++];
 	dst[i] = '\0';
 	return (len);
 }
