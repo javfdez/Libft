@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/10 13:24:11 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/10 15:39:00 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,7 @@ SRC =	ft_isalpha.c	\
 		ft_strchr.c		\
 		ft_strrchr.c	\
 		ft_strncmp.c	\
+		ft_memchr.c		\
 		ft_substr.c		\
 		ft_strjoin.c	\
 

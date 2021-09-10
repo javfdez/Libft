@@ -1,25 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/10 12:03:07 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/10 15:52:26 by javferna         ###   ########.fr       */
+/*   Created: 2021/09/10 15:23:06 by javferna          #+#    #+#             */
+/*   Updated: 2021/09/10 16:04:26 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strrchr(const char *s, int c)
+void	*ft_memchr(const void *s, int c, size_t n)
 {
-	size_t	len;
+	const unsigned char	*str;
+	size_t				i;
 
-	len = ft_strlen(s);
-	while (len > 0 && s[len] != c)
-		len--;
-	if (s[len] != c)
+	str = s;
+	i = 0;
+	while (str[i] && str[i] != (unsigned char)c && i < n)
+		i++;
+	if (!str[i] && (unsigned char)c != '\0')
 		return (NULL);
-	return ((char *)&s[len]);
+	if (i == n)
+		return (NULL);
+	return ((void *)&str[i]);
 }
