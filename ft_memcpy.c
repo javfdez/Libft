@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/07 12:31:36 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/09 14:09:23 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/12 01:09:18 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	char		*cast_dest;
 	size_t		i;
 
+	if (src == NULL && dest == NULL)
+		return (NULL);
 	cast_src = src;
 	cast_dest = dest;
 	i = 0;

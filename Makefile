@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/10 16:16:57 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/12 01:42:46 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,6 +29,7 @@ SRC =	ft_isalpha.c	\
 		ft_strncmp.c	\
 		ft_memchr.c		\
 		ft_memcmp.c		\
+		ft_strnstr.c	\
 		ft_substr.c		\
 		ft_strjoin.c	\
 
@@ -68,4 +69,8 @@ re: fclean all
 
 rebonus: fclean bonus
 
-.PHONY = all, clean, fclean, bonus, re, rebonus
+so:
+	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRC)
+	gcc -nostartfiles -shared -o libft.so $(OBJ)
+
+.PHONY = all clean fclean bonus re rebonus so
