@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/12 01:42:46 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/13 18:28:53 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -69,8 +69,4 @@ re: fclean all
 
 rebonus: fclean bonus
 
-so:
-	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRC)
-	gcc -nostartfiles -shared -o libft.so $(OBJ)
-
-.PHONY = all clean fclean bonus re rebonus so
+.PHONY = all clean fclean bonus re rebonus

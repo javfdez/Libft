@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/05 15:46:13 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/10 16:27:33 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/13 16:33:07 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include <stdlib.h>
 # include <stdio.h>
 # include <string.h>
-# include <bsd/string.h>
 
 //////////////////////////////////// Part 1 ////////////////////////////////////
 
