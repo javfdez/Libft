@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 11:15:28 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/14 13:17:58 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/14 14:27:51 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,9 @@ int	ft_atoi(const char *str)
 		i++;
 	while (str[i] && (str[i] >= '0' && str[i] <= '9'))
 		nb = nb * 10 + str[i++] - '0';
-	if (sign == 1 && nb > LLONG_MAX)
+	if (sign == 1 && nb > MAX_LLONG)
 		return (-1);
-	if (sign == -1 && nb > LLONG_MAX)
+	if (sign == -1 && nb > MAX_LLONG)
 		return (0);
 	return (nb * sign);
 }
-
