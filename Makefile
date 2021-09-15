@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/15 12:47:05 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/15 14:44:29 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ SRC =	ft_isalpha.c	\
 		ft_strdup.c		\
 		ft_substr.c		\
 		ft_strjoin.c	\
-		ft_strtrim.c		\
+		ft_strtrim.c	\
 
 SRCBONUS =
 
