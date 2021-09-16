@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 12:15:26 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/15 14:29:26 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/16 00:25:41 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (ft_strdup(""));
 	while (len - 1 > 0 && ft_charinset(s1[len - 1], set))
 		len--;
-	str = malloc((len - i) * sizeof(char) + 1);
+	str = malloc((len - i + 1) * sizeof(char));
 	if (!str)
 		return (NULL);
 	j = 0;
