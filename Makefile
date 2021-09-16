@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/16 16:38:34 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/16 16:49:10 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,6 +38,7 @@ SRC =	ft_isalpha.c	\
 		ft_strtrim.c	\
 		ft_split.c		\
 		ft_itoa.c		\
+		ft_strmapi.c	\
 
 SRCBONUS =
 
