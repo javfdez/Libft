@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 15:21:22 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/16 00:26:29 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/16 14:36:43 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strdup(const char *s1)
 {
 	size_t	len;
-	size_t	i;
+	int		i;
 	char	*cpy;
 
 	len = ft_strlen(s1);

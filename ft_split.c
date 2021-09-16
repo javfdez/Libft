@@ -6,16 +6,16 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 14:52:14 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/16 02:02:05 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/16 16:40:14 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static size_t	ft_n_of_strs(char const *s, char c)
+static int	ft_n_of_strs(char const *s, char c)
 {
-	size_t	i;
-	size_t	nstr;
+	int		i;
+	int		nstr;
 
 	i = 0;
 	nstr = 0;
@@ -31,10 +31,10 @@ static size_t	ft_n_of_strs(char const *s, char c)
 	return (nstr);
 }
 
-static char	*ft_alloc_cpy(char const *s, char c, size_t *i)
+static char	*ft_alloc_cpy(char const *s, char c, int	 *i)
 {
-	size_t	j;
-	size_t	len;
+	int		j;
+	int		len;
 	char	*str;
 
 	len = 0;
@@ -55,9 +55,9 @@ static char	*ft_alloc_cpy(char const *s, char c, size_t *i)
 char	**ft_split(char const *s, char c)
 {
 	char	**split;
-	size_t	nstrings;
-	size_t	i;
-	size_t	j;
+	int		nstrings;
+	int		i;
+	int		j;
 
 	if (!s)
 		return (NULL);
