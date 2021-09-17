@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 14:52:14 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/16 16:40:14 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/17 14:23:52 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ static int	ft_n_of_strs(char const *s, char c)
 		if (s[i] == c && s[i - 1] != c)
 			nstr++;
 	}
-	if (!s[i] && s[i - 1] != c)
+	if (s[i - 1] != c)
 		nstr++;
 	return (nstr);
 }

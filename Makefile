@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/17 12:18:36 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/17 16:04:32 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,7 +45,11 @@ SRC =	ft_isalpha.c	\
 		ft_putendl_fd.c	\
 		ft_putnbr_fd.c	\
 
-SRCBONUS =
+SRCBONUS =	ft_lstnew_bonus.c		\
+			ft_lstadd_front_bonus.c	\
+			ft_lstsize_bonus.c		\
+			ft_lstlast_bonus.c		\
+			ft_lstadd_back_bonus.c	\
 
 SRCH = libft.h
 

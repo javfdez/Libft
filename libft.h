@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/05 15:46:13 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/17 12:51:45 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/17 15:27:24 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,12 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
+
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}	t_list;
 
 //////////////////////////////////// Part 1 ////////////////////////////////////
 
@@ -57,5 +63,13 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+
+//////////////////////////////////// Bonus ////////////////////////////////////
+
+t_list	*ft_lstnew(void *content);
+void	ft_lstadd_front(t_list **lst, t_list *new);
+int		ft_lstsize(t_list *lst);
+t_list	*ft_lstlast(t_list *lst);
+void	ft_lstadd_back(t_list **lst, t_list *new);
 
 #endif
