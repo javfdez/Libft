@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/17 16:04:32 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/17 18:31:24 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,6 +50,10 @@ SRCBONUS =	ft_lstnew_bonus.c		\
 			ft_lstsize_bonus.c		\
 			ft_lstlast_bonus.c		\
 			ft_lstadd_back_bonus.c	\
+			ft_lstdelone_bonus.c	\
+			ft_lstclear_bonus.c		\
+			ft_lstiter_bonus.c		\
+			ft_lstmap_bonus.c		\
 
 SRCH = libft.h
 
