@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/17 18:31:24 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/18 02:28:19 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -55,8 +55,6 @@ SRCBONUS =	ft_lstnew_bonus.c		\
 			ft_lstiter_bonus.c		\
 			ft_lstmap_bonus.c		\
 
-SRCH = libft.h
-
 OBJ = $(SRC:.c=.o)
 
 OBJBONUS = $(SRCBONUS:.c=.o)
@@ -71,22 +69,20 @@ CFLAGS = -Wall -Wextra -Werror
 
 NAME = libft.a
 
-$(NAME): $(OBJ) $(SRCH)
-	$(AR) $(NAME) $(OBJ)
+$(NAME): $(OBJ)
+	@$(AR) $(NAME) $(OBJ)
 
 all: $(NAME)
 
-bonus: $(OBJ) $(OBJBONUS) $(SRCH)
-	$(AR) $(NAME) $(OBJ) $(OBJBONUS)
+bonus: $(OBJBONUS)
+	@$(AR) $(NAME) $(OBJBONUS)
 
 clean:
-	$(RM) $(OBJ) $(OBJBONUS)
+	@$(RM) $(OBJ) $(OBJBONUS)
 
 fclean: clean
-	$(RM) $(NAME)
+	@$(RM) $(NAME)
 
 re: fclean all
 
-rebonus: fclean bonus
-
-.PHONY = all clean fclean bonus re rebonus
+.PHONY = all clean fclean bonus re

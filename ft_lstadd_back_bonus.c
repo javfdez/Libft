@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/17 15:27:03 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/17 16:43:02 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/18 02:10:04 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
+	if (!lst)
+		return ;
 	if (*lst)
 		(ft_lstlast(*lst))->next = new;
 	else
