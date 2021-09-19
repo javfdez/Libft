@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/19 02:42:45 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/19 02:43:35 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -68,7 +68,6 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
 NAME = libft.a
-
 
 all: $(NAME)
 
