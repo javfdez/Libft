@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/19 02:41:11 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/19 02:42:45 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -85,9 +85,5 @@ fclean: clean
 	@$(RM) $(NAME)
 
 re: fclean all
-
-so:
-	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRCS) $(SRCBONUS)
-	gcc -nostartfiles -shared -o libft.so $(OBJ) $(OBJBONUS)
 
 .PHONY = all clean fclean bonus re
