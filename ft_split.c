@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 14:52:14 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/17 14:23:52 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/19 02:13:23 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,17 @@ static char	*ft_alloc_cpy(char const *s, char c, int	 *i)
 	return (str);
 }
 
+static char	**ft_freesplit(char **split, int j)
+{
+	int	i;
+
+	i = 0;
+	while (i < j)
+		free(split[i++]);
+	free(split);
+	return (NULL);
+}
+
 char	**ft_split(char const *s, char c)
 {
 	char	**split;
@@ -65,13 +76,17 @@ char	**ft_split(char const *s, char c)
 	split = malloc((nstrings + 1) * sizeof(char *));
 	if (!split)
 		return (NULL);
+	split[nstrings] = NULL;
 	i = -1;
 	j = 0;
 	while (j < nstrings && s[++i])
 	{
 		if (s[i] != c)
+		{
 			split[j++] = ft_alloc_cpy(s, c, &i);
+			if (!split[j - 1])
+				return (ft_freesplit(split, j - 1));
+		}
 	}
-	split[nstrings] = NULL;
 	return (split);
 }

@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/17 17:27:31 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/18 02:04:46 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/19 02:35:57 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*aux;
 
-	if (!lst || !del)
+	if (!lst)
 		return ;
 	while (*lst)
 	{

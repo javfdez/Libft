@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/17 17:45:14 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/18 02:28:29 by javferna         ###   ########.fr       */
+/*   Updated: 2021/09/19 02:14:09 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		aux = ft_lstnew((*f)(lst->content));
 		if (!aux)
 		{
-			ft_lstclear(&lst, del);
+			ft_lstclear(&map, del);
 			return (NULL);
 		}
 		ft_lstadd_back(&map, aux);
