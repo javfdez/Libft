@@ -6,7 +6,7 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/19 02:43:35 by javferna         ###   ########.fr        #
+#    Updated: 2021/09/20 11:29:37 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -72,16 +72,16 @@ NAME = libft.a
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	@$(AR) $(NAME) $(OBJ)
+	$(AR) $(NAME) $(OBJ)
 
 bonus: $(OBJBONUS)
-	@$(AR) $(NAME) $(OBJBONUS)
+	$(AR) $(NAME) $(OBJBONUS)
 
 clean:
-	@$(RM) $(OBJ) $(OBJBONUS)
+	$(RM) $(OBJ) $(OBJBONUS)
 
 fclean: clean
-	@$(RM) $(NAME)
+	$(RM) $(NAME)
 
 re: fclean all
 
