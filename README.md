@@ -4,7 +4,7 @@
 
 *My first project at 42.*
 
-In this project, the students must re-code some standard C library functions plus some additional ones with the aim of providing them with a deeper understanding of their behaviour. This way we can have our own library, which we will eventually expand throughout the whole cursus by adding functions we could find useful during the development of other projects. 
+In this project, the students must re-code some standard C library functions plus some additional ones with the aim of providing them with a deeper understanding of their behaviour. This way we can have our own library, which we will eventually expand throughout the whole cursus by adding functions we could find useful during the development of other projects.
 
 # Content
 
@@ -47,7 +47,7 @@ The next table shows the different functions contained within the "**src/**" dir
 
 # How does it work?
 
-The [Makefile](https://github.com/Javiff8/Libft/blob/master/Makefile) does not relink, and has the following rules:
+The *[Makefile](https://github.com/Javiff8/Libft/blob/master/Makefile)* does not relink, and has the following rules:
 
 - `make all` or simply `make` : used to compile the whole library.
 - `make **clean**`: used to remove all objects.
