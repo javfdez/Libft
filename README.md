@@ -25,14 +25,14 @@ The functions included in this part are used to manipulate lists. Therefore, the
 ```c
 typedef struct s_list
 {
-	void			    *content;
+	void			*content;
 	struct s_list	*next;
 }	t_list;
 ```
 
-All functions using *t_list* will be using this struct to represent the elements of the list. Here is a description of the fields of the struct:
+All functions using t_list will be using this struct to represent the elements of the list. Here is a description of the fields of the struct:
 
-- **content**: The data contained in the element**.** The *void ****** allows to store any kind of data.
+- **content**: The data contained in the element.The *void allows to store any kind of data.
 - **next**: The next element’s address or NULL if it’s the last element.
 
 ## Personal functions
@@ -41,7 +41,7 @@ This set of functions includes those that I have created on my own during the de
 
 # Functions
 
-The next table shows the different functions contained within the "[**src/**](https://github.com/Javiff8/Libft/tree/master/src)" directory of this repository.
+The next table shows the different functions contained within the [src/](https://github.com/Javiff8/Libft/tree/master/src) directory of this repository.
 
 |Function                  |Description     |Prototype                                                               |
 |--------------------------|----------------|------------------------------------------------------------------------|
