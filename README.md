@@ -96,7 +96,7 @@ For a larger version of this table with more extended descriptions of the functi
 The [Makefile](https://github.com/Javiff8/Libft/blob/master/Makefile) does not relink, and has the following rules:
 
 - `make all` or simply `make` : used to compile the whole library.
-- `make **clean**`: used to remove all objects.
+- `make clean`: used to remove all objects.
 - `make fclean`: to remove all objects and the *libft.a* file.
 - `make re` same as doing `make fclean` followed by `make`.
 
