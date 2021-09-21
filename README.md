@@ -43,7 +43,7 @@ This set of functions includes those that I have created on my own during the de
 
 The next table shows the different functions contained within the [src/](https://github.com/Javiff8/Libft/tree/master/src) directory of this repository with a small description of their behaviour and their prototype.
 
-|Function                 |Description      |Prototype                                                               |
+|Function                 |Description            |Prototype                                                         |
 |--------------------------|----------------|------------------------------------------------------------------------|
 |[ft_isalpha](https://github.com/Javiff8/Libft/blob/master/src/ft_isalpha.c)                |Is c a letter?|int	ft_isalpha(int c);                                                  |
 |[ft_isdigit](https://github.com/Javiff8/Libft/blob/master/src/ft_isdigit.c)                |Is c a number?|int	ft_isdigit(int c);                                                  |
