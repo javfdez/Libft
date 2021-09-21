@@ -25,7 +25,7 @@ The functions included in this part are used to manipulate lists. Therefore, the
 ```c
 typedef struct s_list
 {
-	void			*content;
+	void		*content;
 	struct s_list	*next;
 }	t_list;
 ```
