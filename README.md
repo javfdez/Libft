@@ -4,7 +4,7 @@
 
 *My first project at 42.*
 
-In this project, the students must re-code some standard C library functions plus some additional ones with the aim of providing them with a deeper understanding of their behaviour. This way we can have our own library, which we will eventually expand throughout the whole cursus by adding functions we could find useful during the development of other projects.
+In this project, the students must re-code some standard C library functions plus some additional ones with the aim of providing them with a deeper understanding of their behaviour. This way we can have our own library, which we will eventually expand throughout the whole cursus by adding functions we could find useful during the development of other projects. 
 
 # Content
 
@@ -20,7 +20,7 @@ The functions included in this set are either not included in the libc, or inclu
 
 ## Bonus functions
 
-The functions included in this part are used to manipulate lists. Therefore, the following struct is included in the *[libft.h](https://github.com/Javiff8/Libft/blob/master/inc/libft.h)* file:
+The functions included in this part are used to manipulate lists. Therefore, the following struct is included in the [libft.h](https://github.com/Javiff8/Libft/blob/master/inc/libft.h) file:
 
 ```c
 typedef struct s_list
@@ -43,7 +43,7 @@ This set of functions includes those that I have created on my own during the de
 
 The next table shows the different functions contained within the "**src/**" directory of this repository.
 
-[Functions](https://www.notion.so/e39ac1c36e2740e286abedb68753af0f)
+[Functions](Libft%20617f1c4c95c14628a959ba933bae5e22/Functions%20e39ac1c36e2740e286abedb68753af0f.csv)
 
 # How does it work?
 
@@ -54,7 +54,7 @@ The *[Makefile](https://github.com/Javiff8/Libft/blob/master/Makefile)* does not
 - `make fclean`: to remove all objects and the *libft.a* file.
 - `make re` same as doing `make fclean` followed by `make`.
 
-To use the functions in this library, it is as simple as including the *[libft.h](https://github.com/Javiff8/Libft/blob/master/inc/libft.h)* header at the beginning of the "**.c**" files that will use any of these functions and compiling the *libft.a* file alongside with the "**.o**" objects generated from those "**.c**" files.
+To use the functions in this library, it is as simple as including the [libft.h](https://github.com/Javiff8/Libft/blob/master/inc/libft.h) header at the beginning of the "**.c**" files that will use any of these functions and compiling the **libft.a** file alongside with the "**.o**" objects generated from those "**.c**" files.
 
 # Status, grade and observations
 
