@@ -43,7 +43,7 @@ This set of functions includes those that I have created on my own during the de
 
 The next table shows the different functions contained within the "**src/**" directory of this repository.
 
-[Functions](Libft%20617f1c4c95c14628a959ba933bae5e22/Functions%20e39ac1c36e2740e286abedb68753af0f.csv)
+[Functions](https://www.notion.so/e39ac1c36e2740e286abedb68753af0f)
 
 # How does it work?
 
