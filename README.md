@@ -32,7 +32,7 @@ typedef struct s_list
 
 All functions using t_list will be using this struct to represent the elements of the list. Here is a description of the fields of the struct:
 
-- **content**: The data contained in the element.The *void allows to store any kind of data.
+- **content**: The data contained in the element. The *void allows to store any kind of data.
 - **next**: The next element’s address or NULL if it’s the last element.
 
 ## Personal functions
