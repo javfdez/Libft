@@ -41,7 +41,7 @@ This set of functions includes those that I have created on my own during the de
 
 # Functions
 
-The next table shows the different functions contained within the [src/](https://github.com/Javiff8/Libft/tree/master/src) directory of this repository.
+The next table shows the different functions contained within the [src/](https://github.com/Javiff8/Libft/tree/master/src) directory of this repository with a small description of their behaviour and their prototype.
 
 |Function                  |Description     |Prototype                                                               |
 |--------------------------|----------------|------------------------------------------------------------------------|
