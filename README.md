@@ -89,7 +89,7 @@ The next table shows the different functions contained within the [src/](https:/
 |[ft_lstiter](https://github.com/Javiff8/Libft/blob/master/src/ft_lstiter.c)               |Iterates lst and applies f|void	ft_lstiter(t_list *lst, void (*f)(void *));                        |
 |[ft_lstmap](https://github.com/Javiff8/Libft/blob/master/src/ft_lstmap.c)                 |Copies lst applying f|t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));|
 
-For a larger version of this table with more extended descriptions of the functions you can access this notion: [Functions](https://www.notion.so/e39ac1c36e2740e286abedb68753af0f)
+For a larger version of this table with more extended descriptions of the functions you can access this notion: [Functions](https://javferna-42-cursus.notion.site/e39ac1c36e2740e286abedb68753af0f?v=ba007b7e3f9d445785915d94146f111e)
 
 # How does it work?
 
