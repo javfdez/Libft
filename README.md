@@ -56,7 +56,7 @@ The next table shows the different functions contained within the [src/](https:/
 |[ft_strlcpy](https://github.com/Javiff8/Libft/blob/master/src/ft_strlcpy.c)                  |Copy dstsize characters|`size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);`          |
 |[ft_strlcat](https://github.com/Javiff8/Libft/blob/master/src/ft_strlcat.c)                  |Concats dstsize characters in dst|`size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);`          |
 |[ft_toupper](https://github.com/Javiff8/Libft/blob/master/src/ft_toupper.c)                  |Uppercase to lowercase|`int	ft_toupper(int c);`                                                  |
-|[ft_tolower](https://github.com/Javiff8/Libft/blob/master/src/ft_tolower.c)                  |Lowercase to uppercase|`int	ft_toupper(int c);`                                                  |
+|[ft_tolower](https://github.com/Javiff8/Libft/blob/master/src/ft_tolower.c)                  |Lowercase to uppercase|`int	ft_tolower(int c);`                                                  |
 |[ft_strchr](https://github.com/Javiff8/Libft/blob/master/src/ft_strchr.c)                    |Locates the first occurrence of c|`char	*ft_strchr(const char *s, int c);`                                  |
 |[ft_strrchr](https://github.com/Javiff8/Libft/blob/master/src/ft_strrchr.c)                  |Locates the last occurrence of c|`char	*ft_strrchr(const char *s, int c);`                                 |
 |[ft_strncmp](https://github.com/Javiff8/Libft/blob/master/src/ft_strncmp.c)                  |Compares n characters|`int	ft_strncmp(const char *s1, const char *s2, size_t n);`               |
