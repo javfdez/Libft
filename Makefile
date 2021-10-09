@@ -6,12 +6,11 @@
 #    By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/05 17:27:03 by javferna          #+#    #+#              #
-#    Updated: 2021/09/21 14:33:06 by javferna         ###   ########.fr        #
+#    Updated: 2021/10/09 23:02:17 by javferna         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRC_DIR	=	src/
-OBJ_DIR	=	obj/
 INC_DIR	=	inc/
 
 SRC	=	$(addprefix $(SRC_DIR),	\
@@ -57,7 +56,9 @@ SRC	=	$(addprefix $(SRC_DIR),	\
 		ft_lstdelone.c			\
 		ft_lstclear.c			\
 		ft_lstiter.c			\
-		ft_lstmap.c)
+		ft_lstmap.c				\
+		get_next_line.c			\
+		get_next_line_bonus.c)
 
 OBJ = $(SRC:.c=.o)
 
