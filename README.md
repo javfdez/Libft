@@ -100,7 +100,7 @@ The [Makefile](https://github.com/Javiff8/Libft/blob/master/Makefile) does not r
 - `make fclean`: to remove all objects and the *libft.a* file.
 - `make re` same as doing `make fclean` followed by `make`.
 
-To use the functions in this library, it is as simple as including the [libft.h](https://github.com/Javiff8/Libft/blob/master/inc/libft.h) header at the beginning of the "**.c**" files that will use any of these functions and compiling the **libft.a** file alongside with the "**.o**" objects generated from those "**.c**" files.
+To use the functions in this library, it is as simple as including the [libft.h](https://github.com/Javiff8/Libft/blob/master/inc/libft.h) header at the beginning of the "**.c**" files that will use any of these functions and compiling the **libft.a**.
 
 # Status, grade and observations
 
