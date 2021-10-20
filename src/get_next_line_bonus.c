@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/29 16:18:32 by javferna          #+#    #+#             */
-/*   Updated: 2021/10/19 15:35:41 by javferna         ###   ########.fr       */
+/*   Updated: 2021/10/20 22:57:33 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,10 @@ static char	*ft_strjoin_gnl(char *temp, char *buf)
 		return (NULL);
 	new_temp = malloc(sizeof(char) * (ft_strlen(temp) + ft_strlen(buf) + 1));
 	if (!new_temp)
+	{
+		free (temp);
 		return (NULL);
+	}
 	i = -1;
 	while (temp[++i])
 		new_temp[i] = temp[i];
@@ -99,6 +102,8 @@ char	*get_next_line_bonus(int fd)
 			temp[fd] = ft_strdup(buf);
 		else
 			temp[fd] = ft_strjoin_gnl(temp[fd], buf);
+		if (!temp[fd])
+			break ;
 	}
 	free(buf);
 	return (ft_fill_result(&temp[fd]));
