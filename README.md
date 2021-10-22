@@ -105,5 +105,5 @@ To use the functions in this library it is as simple as compiling it via `make`,
 # Status, grade and observations
 
 - Status: Finished.
-- Grade: [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/javferna/libft)](https://github.com/JaeSeoKim/badge42)
+- Grade: [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/javferna/Libft)](https://github.com/JaeSeoKim/badge42)
 - Observations: None.
