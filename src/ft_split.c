@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 14:52:14 by javferna          #+#    #+#             */
-/*   Updated: 2021/09/20 15:36:59 by javferna         ###   ########.fr       */
+/*   Updated: 2021/10/26 16:48:38 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ static int	ft_n_of_strs(char const *s, char c)
 	return (nstr);
 }
 
-static char	*ft_alloc_cpy(char const *s, char c, int	 *i)
+static char	*ft_alloc_cpy(char const *s, char c, int *i)
 {
 	int		j;
 	int		len;
