@@ -6,7 +6,7 @@
 /*   By: javferna <javferna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/05 15:46:13 by javferna          #+#    #+#             */
-/*   Updated: 2021/10/09 23:00:56 by javferna         ###   ########.fr       */
+/*   Updated: 2022/01/17 21:51:20 by javferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # define MAX_FD 12288
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 42
+#  define BUFFER_SIZE 1
 # endif
 
 # include <stdlib.h>
