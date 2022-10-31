@@ -101,9 +101,3 @@ The [Makefile](https://github.com/Javiff8/Libft/blob/master/Makefile) does not r
 - `make re` same as doing `make fclean` followed by `make`.
 
 To use the functions in this library it is as simple as compiling it via `make`, then including the [libft.h](https://github.com/Javiff8/Libft/blob/master/inc/libft.h) header at the beginning of the "**.c**" files that will use any of these functions and compiling those along with the **libft.a** file.
-
-# Status, grade and observations
-
-- Status: Finished.
-- Grade: [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/javferna/Libft)](https://github.com/JaeSeoKim/badge42)
-- Observations: None.
