@@ -1,5 +1,7 @@
 # Libft
 
+![42 School](https://img.shields.io/badge/42%20School-Project-blue)
+
 # What is Libft?
 
 In this project, the students must re-code some standard C library functions plus some additional ones with the aim of providing them with a deeper understanding of their behaviour. This way we can have our own library, which we will eventually expand throughout the whole cursus by adding functions we could find useful during the development of other projects.
